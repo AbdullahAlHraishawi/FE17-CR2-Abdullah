@@ -54,3 +54,9 @@ function addAction() {
 }
 
 document.getElementById("sortImg").onclick = sortByPriority;
+
+
+// Hello Trainers, I wanted to do the colors of the button to change it 
+// when the priority goes up but it didn't work for me so if you could please
+// explain it in a comment while correcting this, that would be great.
+// Thanks for your time.
