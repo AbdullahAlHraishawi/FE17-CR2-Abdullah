@@ -27,10 +27,12 @@
   margin: 30px 20%;
 }
 
-#priority {
+.priorityBtn {
   color: whitesmoke;
   background-color: green;
-  padding: 3px 6px;
+  padding: 2px 8px;
+  border: unset;
+  border-radius: 5px;
 }
 
 #button {
@@ -44,26 +46,81 @@
   -moz-box-shadow: 2px 2px 7px 3px rgba(0, 0, 0, 0.58);
 }
 
-#priorityIcon{
-    width: 20px;
-    height: 20px;
-    margin: 2px;
-    
+#icons {
+  width: 20px;
+  height: 20px;
+  margin: 2px;
 }
 
-#footerDiv{
-    background-color: #1a1a1a;
+#footerDiv {
+  background-color: #1a1a1a;
+  padding: 10px;
 
-    ul{
-        display: flex;
-        justify-content: center;
-        text-decoration: none;
-        list-style: none;
+  ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
 
-        li{
-            margin: 5px;
-            padding: 5px;
-            border: 2px solid white;
-        }
+    li {
+      margin: 0px 5px;
+      margin-top: 20px;
+      padding: 5px;
+      border: 2px solid white;
+      border-radius: 10px;
     }
+
+    img{
+      width: 25px;
+      height: 25px;
+    }
+  }
+
+  form{
+    display: flex;
+    justify-content: center;
+    
+    label{
+      margin: 0px 15px;
+      color: white;
+      font-weight: bold;
+      font-size: 17px;
+    }
+
+    input{
+      margin: 0px 15px;
+    }
+
+    #email{
+      width: 30%;
+    }
+
+    #formBtn{
+      border: 2px solid white;
+      border-radius: 5px;
+      background-color: #1a1a1a;
+      color: white;
+      padding: 5px 8px;
+    }
+  }
+}
+
+#sortHeader {
+  img{
+    width: 24px;
+    height: 24px;
+    transition: all 0.5s;
+  }
+}
+
+#sortImg:hover{
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
+#copyright{
+  color: whitesmoke;
+  text-align: center;
+  margin: 10px 0px;
 }

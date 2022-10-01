@@ -1,56 +1,56 @@
 let tasks = `[
     {
         "taskName": "Take the Dog for a Walk",
-        "image": "images/img1.jpg",
+        "image": "images/dog.jpg",
         "description": "Take the Dog for a Walk around the park.",
         "importance": 0,
         "deadline": "05.10.2022"
     }, {
-        "taskName": "Take the Dog for a Walk",
-        "image": "images/img1.jpg",
-        "description": "Take the Dog for a Walk around the park.",
+        "taskName": "Go Shopping",
+        "image": "images/shopping.jpg",
+        "description": "Go shopping with your friends.",
         "importance": 0,
         "deadline": "10.10.2022"
     }, {
-        "taskName": "Take the Dog for a Walk",
-        "image": "images/img1.jpg",
-        "description": "Take the Dog for a Walk around the park.",
+        "taskName": "Go for a walk",
+        "image": "images/walk.jpg",
+        "description": "Go for a walk around the city.",
         "importance": 0,
-        "deadline": "07.10.2022"
+        "deadline": "25.10.2022"
     }, {
-        "taskName": "Take the Dog for a Walk",
-        "image": "images/img1.jpg",
-        "description": "Take the Dog for a Walk around the park.",
+        "taskName": "Clean the house",
+        "image": "images/cleaning.jpg",
+        "description": "Clean the house and take out the trash.",
         "importance": 0,
         "deadline": "12.10.2022"
     }, {
-        "taskName": "Take the Dog for a Walk",
-        "image": "images/img1.jpg",
-        "description": "Take the Dog for a Walk around the park.",
+        "taskName": "Water the plants",
+        "image": "images/water.jpg",
+        "description": "Water the Plants in the livingroom.",
         "importance": 0,
         "deadline": "13.10.2022"
     }, {
-        "taskName": "Take the Dog for a Walk",
-        "image": "images/img1.jpg",
-        "description": "Take the Dog for a Walk around the park.",
+        "taskName": "Do the laundry",
+        "image": "images/laundry.jpg",
+        "description": "Do the laundry and don't forget the dirty clothes in the bedroom.",
         "importance": 0,
         "deadline": "09.10.2022"
     }, {
-        "taskName": "Take the Dog for a Walk",
-        "image": "images/img1.jpg",
-        "description": "Take the Dog for a Walk around the park.",
+        "taskName": "Iron the clothes",
+        "image": "images/iron.jpg",
+        "description": "Iron and prepare your clothes for work.",
         "importance": 0,
         "deadline": "01.10.2022"
     }, {
-        "taskName": "Take the Dog for a Walk",
-        "image": "images/img1.jpg",
-        "description": "Take the Dog for a Walk around the park.",
+        "taskName": "Feed the dog",
+        "image": "images/feed.jpg",
+        "description": "Don't forget to feed the dog, food in the upper cabinet in the kitchen.",
         "importance": 0,
         "deadline": "03.10.2022" 
     }, {
-        "taskName": "Take the Dog for a Walk",
-        "image": "images/img1.jpg",
-        "description": "Take the Dog for a Walk around the park.",
+        "taskName": "Study Japanese",
+        "image": "images/study.jpg",
+        "description": "Study Japanese, the alphabets are hanging on the fridge as a reminder.",
         "importance": 0,
         "deadline": "22.10.2022"
     }
