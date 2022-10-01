@@ -52,6 +52,20 @@
   margin: 2px;
 }
 
+#sortHeader {
+  img {
+    width: 24px;
+    height: 24px;
+    transition: all 0.5s;
+  }
+}
+
+#sortImg:hover {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
 #footerDiv {
   background-color: #1a1a1a;
   padding: 10px;
@@ -69,57 +83,52 @@
       border: 2px solid white;
       border-radius: 10px;
     }
-
-    img{
-      width: 25px;
-      height: 25px;
-    }
   }
 
-  form{
+  .footerIcons{
+      width: 30px;
+      height: 30px;
+      transition: all 0.5s;
+      &:hover {
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+      }
+  }
+
+  form {
     display: flex;
     justify-content: center;
-    
-    label{
+
+    label {
       margin: 0px 15px;
       color: white;
       font-weight: bold;
       font-size: 17px;
     }
 
-    input{
+    input {
       margin: 0px 15px;
     }
 
-    #email{
+    #email {
       width: 30%;
     }
 
-    #formBtn{
+    #formBtn {
       border: 2px solid white;
       border-radius: 5px;
       background-color: #1a1a1a;
       color: white;
       padding: 5px 8px;
+      &:hover{
+        background-color: #1a9682;
+      }
     }
   }
 }
 
-#sortHeader {
-  img{
-    width: 24px;
-    height: 24px;
-    transition: all 0.5s;
-  }
-}
-
-#sortImg:hover{
-  cursor: pointer;
-  width: 32px;
-  height: 32px;
-}
-
-#copyright{
+#copyright {
   color: whitesmoke;
   text-align: center;
   margin: 10px 0px;

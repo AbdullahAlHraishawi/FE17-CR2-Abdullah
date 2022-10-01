@@ -51,6 +51,18 @@
   margin: 2px;
 }
 
+#sortHeader img {
+  width: 24px;
+  height: 24px;
+  transition: all 0.5s;
+}
+
+#sortImg:hover {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+
 #footerDiv {
   background-color: #1a1a1a;
   padding: 10px;
@@ -68,9 +80,15 @@
   border: 2px solid white;
   border-radius: 10px;
 }
-#footerDiv ul img {
-  width: 25px;
-  height: 25px;
+#footerDiv .footerIcons {
+  width: 30px;
+  height: 30px;
+  transition: all 0.5s;
+}
+#footerDiv .footerIcons:hover {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
 }
 #footerDiv form {
   display: flex;
@@ -95,17 +113,8 @@
   color: white;
   padding: 5px 8px;
 }
-
-#sortHeader img {
-  width: 24px;
-  height: 24px;
-  transition: all 0.5s;
-}
-
-#sortImg:hover {
-  cursor: pointer;
-  width: 32px;
-  height: 32px;
+#footerDiv form #formBtn:hover {
+  background-color: #1a9682;
 }
 
 #copyright {
