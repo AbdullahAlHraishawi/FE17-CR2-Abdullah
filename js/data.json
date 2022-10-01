@@ -1,0 +1,57 @@
+let tasks = `[
+    {
+        "taskName": "Take the Dog for a Walk",
+        "image": "images/img1.jpg",
+        "description": "Take the Dog for a Walk around the park.",
+        "importance": 0,
+        "deadline": "05.10.2022"
+    }, {
+        "taskName": "Take the Dog for a Walk",
+        "image": "images/img1.jpg",
+        "description": "Take the Dog for a Walk around the park.",
+        "importance": 0,
+        "deadline": "10.10.2022"
+    }, {
+        "taskName": "Take the Dog for a Walk",
+        "image": "images/img1.jpg",
+        "description": "Take the Dog for a Walk around the park.",
+        "importance": 0,
+        "deadline": "07.10.2022"
+    }, {
+        "taskName": "Take the Dog for a Walk",
+        "image": "images/img1.jpg",
+        "description": "Take the Dog for a Walk around the park.",
+        "importance": 0,
+        "deadline": "12.10.2022"
+    }, {
+        "taskName": "Take the Dog for a Walk",
+        "image": "images/img1.jpg",
+        "description": "Take the Dog for a Walk around the park.",
+        "importance": 0,
+        "deadline": "13.10.2022"
+    }, {
+        "taskName": "Take the Dog for a Walk",
+        "image": "images/img1.jpg",
+        "description": "Take the Dog for a Walk around the park.",
+        "importance": 0,
+        "deadline": "09.10.2022"
+    }, {
+        "taskName": "Take the Dog for a Walk",
+        "image": "images/img1.jpg",
+        "description": "Take the Dog for a Walk around the park.",
+        "importance": 0,
+        "deadline": "01.10.2022"
+    }, {
+        "taskName": "Take the Dog for a Walk",
+        "image": "images/img1.jpg",
+        "description": "Take the Dog for a Walk around the park.",
+        "importance": 0,
+        "deadline": "03.10.2022" 
+    }, {
+        "taskName": "Take the Dog for a Walk",
+        "image": "images/img1.jpg",
+        "description": "Take the Dog for a Walk around the park.",
+        "importance": 0,
+        "deadline": "22.10.2022"
+    }
+]`;
